@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import PackageCard from "./PackageCard/PackageCard";
-import PackagesHide from "./PackagesHide/PackagesHide";
+import PackageCard from "./components/PackageCard/PackageCard";
+import PackagesHide from "./components/PackagesHide/PackagesHide";
 
 export default function Packages() {
   const [cardIsHide, setCardIsHide] = useState<boolean>(true);

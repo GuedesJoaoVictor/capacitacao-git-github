@@ -1,5 +1,5 @@
 import React from "react";
-import newYork from "../../../assets/new_york.jpg";
+import newYork from "../../../../assets/new_york.jpg";
 
 interface PackageCardProps {
   children: React.ReactNode;
