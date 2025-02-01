@@ -5,7 +5,7 @@ import locationSVG from "../../assets/location.svg";
 
 export default function Contact() {
   return (
-    <div className="w-full bg-blue-500">
+    <div className="w-full bg-sky-800">
       <div className="container mx-auto py-8 flex items-center justify-center flex-col">
         <div className="text-white text-3xl my-8 w-full text-center">
           CONTATO

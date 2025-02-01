@@ -26,7 +26,7 @@ export default function Packages() {
   };
 
   return (
-    <div className="w-full bg-blue-500">
+    <div className="w-full bg-sky-800">
       <div className="container mx-auto py-2">
         <div className="text-center w-full text-white text-3xl my-8">
           PACOTES TURISTICOS
