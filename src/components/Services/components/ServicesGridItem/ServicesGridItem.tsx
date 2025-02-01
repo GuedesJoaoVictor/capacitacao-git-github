@@ -1,7 +1,7 @@
 interface ServicesGridItemProps {
   title: string;
   image: string;
-  gridRow?: "1" | "2";
+  gridRow?: true;
 }
 
 export default function ServicesGridItem({
@@ -10,7 +10,7 @@ export default function ServicesGridItem({
   gridRow,
 }: ServicesGridItemProps) {
   return (
-    <div className={`relative ${gridRow ? `row-span-${gridRow}` : ""}`}>
+    <div className={`relative ${gridRow && "row-span-2"}`}>
       <div className="absolute top-0 right-0 pr-4 pt-4 text-white text-2xl font-mono z-20">
         {title}
       </div>

@@ -18,7 +18,7 @@ export default function Services() {
           <ServicesGridItem // Imagem com espaçamento 2
             title="SEGURO VIAGEM"
             image={parisImage}
-            gridRow="2"
+            gridRow={true}
           />
           <ServicesGridItem title="INTERCÂMBIOS" image={bhImage} />
           <ServicesGridItem title="PASSAGENS AÉREAS" image={airplaneImage} />
