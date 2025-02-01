@@ -12,7 +12,7 @@ export default function Services() {
         <div className="text-center w-full text-sky-700 text-3xl my-8">
           SERVIÇOS
         </div>
-        <div className="grid grid-cols-3 grid-rows-2 rounded overflow-hidden">
+        <div className="md:grid md:grid-cols-3 md:grid-rows-2 rounded overflow-hidden">
           <ServicesGridItem title="RESERVA DE HOTÉIS" image={romaImage} />
           <ServicesGridItem title="PACOTES DE VIAGEM" image={shipImage} />
           <ServicesGridItem // Imagem com espaçamento 2

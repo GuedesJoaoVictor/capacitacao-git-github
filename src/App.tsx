@@ -4,6 +4,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import Packages from "./components/Packages/Packages";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Packages />
       <Services />
       <Contact />
+      <Footer />
     </div>
   );
 }

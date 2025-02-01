@@ -22,7 +22,7 @@ export default function Contact() {
               //   referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col space-y-4 mt-8 md:mt-0">
             <ContactInfo
               image={locationSVG}
               text="Rua dos Loucos, 794 - Centro Santa Maria - RS"
