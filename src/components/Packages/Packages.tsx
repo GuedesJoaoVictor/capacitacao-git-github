@@ -8,6 +8,7 @@ export default function Packages() {
   const refPackagesHide = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Scrolla a tela para baixo para que seja visivel os card novos
     if (!cardIsHide && refPackagesHide.current) {
       refPackagesHide.current.scrollIntoView({
         behavior: "smooth",
@@ -17,6 +18,7 @@ export default function Packages() {
   }, [cardIsHide]);
 
   const onClickSetHide = () => {
+    // Muda o estado para que assim os cards fiquem visiveis
     setCardIsHide((prevState) => !prevState);
     nameButton === "VER MAIS"
       ? setNameButton("VER MENOS")
