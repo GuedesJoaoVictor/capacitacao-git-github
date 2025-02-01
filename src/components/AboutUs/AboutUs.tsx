@@ -1,4 +1,4 @@
-import airplaneImage from "../../assets/avião-da-viagem-aérea-31660569.webp";
+import airplaneImage from "../../assets/airplane_2.webp";
 
 export default function AboutUs() {
   return (
