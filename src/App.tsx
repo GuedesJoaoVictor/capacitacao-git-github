@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar/NavBar";
 import airPlane from "./assets/viagem-programada-1-1.jpg";
 import AboutUs from "./components/AboutUs/AboutUs";
+import Packages from "./components/Packages/Packages";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         />
       </div>
       <AboutUs />
+      <Packages />
     </div>
   );
 }
