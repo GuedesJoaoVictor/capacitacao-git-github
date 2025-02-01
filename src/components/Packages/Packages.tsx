@@ -29,7 +29,9 @@ export default function Packages() {
         <div className="text-center w-full text-white text-3xl my-8">
           PACOTES TURISTICOS
         </div>
-        <div className={`grid grid-rows-1 grid-cols-3 grid-flow-row my-4`}>
+        <div
+          className={`grid grid-rows-1 lg:grid-cols-3 grid-cols-1 grid-flow-row gap-4 items-center justify-center`}
+        >
           <PackageCard title="Title">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
             saepe aliquam quae aut libero fugiat similique facilis doloremque
