@@ -3,6 +3,7 @@ import airPlane from "./assets/airplane.jpg";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Packages from "./components/Packages/Packages";
 import Services from "./components/Services/Services";
+import Contact from "./components/Contact/Contact";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <AboutUs />
       <Packages />
       <Services />
+      <Contact />
     </div>
   );
 }
